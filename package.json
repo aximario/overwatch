@@ -17,7 +17,7 @@
     "sb:build": "build-storybook -s public",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "deploy": "gh-pages -d storybook-static"
+    "deploy": "cp -r storybook-static docs"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,7 +39,6 @@
     "@storybook/addon-links": "^5.1.7",
     "@storybook/addons": "^5.1.7",
     "@storybook/react": "^5.1.7",
-    "gh-pages": "^2.0.1",
     "standard": "^12.0.1"
   },
   "standard": {
